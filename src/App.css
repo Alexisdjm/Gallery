@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #000;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+:root {
+  --outfit-sans-serif: 'Outfit', sans-serif;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+/* --------------------------------- header ---------------------------- */
+
+.header--father {
+  height: fit-content;
+  padding: 1em 1.5em;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  position: absolute;
+  width: calc(100% - 3em);
+}
+
+.header--flex {
+  display: flex;
+  justify-content: end;
+}
+
+.header--content-box {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  width: fit-content;
+  padding: 0 1em;
+}
+
+.header--buton {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 18px;
+  font-family: var(--outfit-sans-serif);
+}
+
+.header--icon-container {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.header--icon-container img {
+  position: relative;
+}
+
+.header--icon-container:hover img {
+  top: -0.4em;
+}
+
+.header--logos {
+  width: 100%;
+  height: 100%;
+}
+
+/* ############ button */
+
+button.header--button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  padding: 1em 2em;
+  border: 2px solid var(--color-white);
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button.header--button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  transition: .6s ease;
+}
+
+button.header--button span:nth-child(6) {
+  position: relative;
+}
+
+button.header--button span:nth-child(1) {
+  transform: translate(-3.3em, -4em);
+}
+
+button.header--button span:nth-child(2) {
+  transform: translate(-6em, 1.3em);
+}
+
+button.header--button span:nth-child(3) {
+  transform: translate(-.2em, 1.8em);
+}
+
+button.header--button span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+button.header--button span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+button.header--button:hover {
+  color: var(--color-black);
+  transition: 1.5s ease;
+}
+
+button.header--button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+}
+
+/* ------------------------------------------ content block ----------------------------------------- */
+
+.parallax {
+  height: 100vh; /* Full screen height */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* Content sections */
+.content {
+  height: 50vh; /* Half screen height */
+  background: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: var(--color-white);
+}
+
+/* ----------------------------------------------- footer ----------------------------------------- */
+
+.foother--father {
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black);
+}
+
+.footer--content-box {
+  max-width: 65%;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--outfit-sans-serif);
+}
+
+/* ------------------------------------------- landing -------------------------------------------- */
+
+.landing--father {
+  z-index: 999;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.landing--father.fade-out {
+  opacity: 0;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing--content {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  color: var(--color-white);
+  max-width: 60%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  

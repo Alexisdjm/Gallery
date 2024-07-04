@@ -1,6 +1,11 @@
 import images from '../img/exporting'
+import React, { useContext } from 'react';
+import { AppContext } from '../AppContext'
 
 const Header = () => {
+
+    const { togglePortada } = useContext(AppContext);
+
     return(<>
         <div className='header--father'>
             <div className='header--flex'>
@@ -11,7 +16,7 @@ const Header = () => {
                     <a className='header--icon-container' href="#">
                         <img src={images.instagram} alt='whatsapp' loading='lazy' className='header--logos'></img>
                     </a>
-                    <button className='header--button'>
+                    <button onClick={togglePortada} className='header--button'>
                         <span className="circle1"></span>
                         <span className="circle2"></span>
                         <span className="circle3"></span>

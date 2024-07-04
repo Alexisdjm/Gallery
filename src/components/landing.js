@@ -1,22 +1,26 @@
-import { useState } from 'react'
 import images from '../img/exporting'
+import { AppContext } from '../AppContext'
+import React, { useContext } from 'react';
 
 const Landing = () => {
 
-    let [showLanding, setShowLanding] = useState(true)
-    let [delayHideLanding, setDelayHideLanding] = useState(true)
+    const { isPortadaVisible, togglePortada, shouldRender } = useContext(AppContext);
 
-    const handleClick = () => {
-        setShowLanding(false)
-        setTimeout(() => {
-            setDelayHideLanding(false)
-        }, 1000);
+    if (!shouldRender) {
+        return null;
     }
+
+    // const handleClick = () => {
+    //     setShowLanding(false)
+    //     setTimeout(() => {
+    //         setDelayHideLanding(false)
+    //     }, 1000);
+    // }
 
     return(<>
         <div id='landingComponent' 
-        className={`landing--father ${!showLanding ? 'fade-out' : ''}`} 
-        style={{backgroundImage: `url(${images.landing})`, display: delayHideLanding ? "flex" : "none"}}>
+        className={`landing--father ${!isPortadaVisible ? 'fade-out' : ''}`} 
+        style={{backgroundImage: `url(${images.landing})`}}>
             <div className='landing--content'>
                 <p>
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Finibus faucibus efficitur cras etiam nascetur massa aenean elementum imperdiet. Volutpat ad pharetra justo hendrerit urna aliquam ipsum, erat eu.
@@ -30,7 +34,7 @@ const Landing = () => {
                 <p>
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Neque sapien curae ante purus placerat
                 </p>
-                <button id='toggleID' className='header--button' onClick={handleClick}>
+                <button id='toggleID' className='header--button' onClick={togglePortada}>
                     <span className="circle1"></span>
                     <span className="circle2"></span>
                     <span className="circle3"></span>

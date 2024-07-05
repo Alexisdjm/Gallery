@@ -165,7 +165,18 @@ button.header--button:hover span:not(:nth-child(6)) {
 .content p {
   font-size: 18px;
   line-height: 28px;
+}
 
+.align-parallax {
+  background-position: 50% -40vh;
+}
+
+.align-parallax-2 {
+  background-position: 50% -60vh;
+}
+
+.align-parallax-3 {
+  background-position: 50% -75vh;
 }
 
 /* ----------------------------------------------- footer ----------------------------------------- */
@@ -258,5 +269,9 @@ button.header--button:hover span:not(:nth-child(6)) {
 
   .footer--flex-content p {
     font-size: 14px;
+  }
+
+  .align-parallax, .align-parallax-2, .align-parallax-3 {
+    background-position: center;
   }
 }

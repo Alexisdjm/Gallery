@@ -28,11 +28,11 @@ const Content = () => {
     };
 
     return(<>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Galería"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} position={"align-parallax"} title={"Galería"}/>
         <div className="content">
             <p>{Text.first}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 1"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} position={"align-parallax"} title={"Section 1"}/>
         <div className="content">
             <p>{Text.second}</p>
         </div>
@@ -44,7 +44,7 @@ const Content = () => {
         <div className="content">
             <p>{Text.forth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} title={"Section 4"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} position={"align-parallax-2"} title={"Section 4"}/>
         <div className="content">
             <p>{Text.fifth}</p>
         </div>
@@ -52,7 +52,7 @@ const Content = () => {
         <div className="content">
             <p>{Text.sixth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 6"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} position={"align-parallax-2"} title={"Section 6"}/>
         <div className="content">
             <p>{Text.seventh}</p>
         </div>
@@ -64,7 +64,7 @@ const Content = () => {
         <div className="content">
             <p>{Text.ninth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 9"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} position={"align-parallax-2"} title={"Section 9"}/>
         <div className="content">
             <p>{Text.tenth}</p>
         </div>
@@ -72,7 +72,7 @@ const Content = () => {
         <div className="content">
             <p>{Text.eleventh}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.45)} title={"Section 11"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} position={"align-parallax-3"} title={"Section 11"}/>
         <div className="content">
             <p>{Text.twelfth}</p>
         </div>

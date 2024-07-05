@@ -1,6 +1,6 @@
-const BlockBox = ({bg, title, position}) => {
+const BlockBox = ({bg, title, position = ""}) => {
     return(<>
-        <div className="parallax" style={{ backgroundImage: bg, backgroundPositionY: position }}>
+        <div className={`parallax ${position}`} style={{ backgroundImage: bg }}>
             <h1>{title}</h1>
         </div>
     </>)

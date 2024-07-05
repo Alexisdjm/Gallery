@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Gallery/static/css/main.50452960.css",
+    "main.js": "/Gallery/static/js/main.5f3b8729.js",
+    "static/media/IMG_6593.jpg": "/Gallery/static/media/IMG_6593.b5862b0a9f23aa1b999a.jpg",
+    "static/media/IMG_6581.jpg": "/Gallery/static/media/IMG_6581.b42fac1e66188e04a898.jpg",
+    "static/media/IMG_6551.jpg": "/Gallery/static/media/IMG_6551.f717b688811da61e81fd.jpg",
+    "static/media/IMG_6557.jpg": "/Gallery/static/media/IMG_6557.09e9175a438b174ada82.jpg",
+    "static/media/IMG_6547.jpg": "/Gallery/static/media/IMG_6547.b06639dcb8eb3b259cb0.jpg",
+    "static/media/IMG_6531.jpg": "/Gallery/static/media/IMG_6531.aee857817035b55849f8.jpg",
+    "static/media/IMG_6512.jpg": "/Gallery/static/media/IMG_6512.e160acbf19108afc2d59.jpg",
+    "static/media/IMG_6493.jpg": "/Gallery/static/media/IMG_6493.1117b8aa687358648743.jpg",
+    "static/media/IMG_6522.jpg": "/Gallery/static/media/IMG_6522.88b506f801b1a02c0621.jpg",
+    "static/media/IMG_6504.jpg": "/Gallery/static/media/IMG_6504.a695dc7d3a27128d4fb5.jpg",
+    "static/media/IMG_6514.jpg": "/Gallery/static/media/IMG_6514.654fa80160598c3482e0.jpg",
+    "static/media/portada.jpg": "/Gallery/static/media/portada.0033d0297fb248a9e979.jpg",
+    "static/media/IMG_6716.jpg": "/Gallery/static/media/IMG_6716.8033dac56258685c8592.jpg",
+    "static/media/grupo.JPG": "/Gallery/static/media/grupo.776746a79eecc343bdd5.JPG",
+    "static/media/instagram.png": "/Gallery/static/media/instagram.45fff7199a360eb96604.png",
+    "static/media/whatsapp.png": "/Gallery/static/media/whatsapp.b6dbec345b34e709d8d3.png",
+    "static/media/instagram-black.png": "/Gallery/static/media/instagram-black.edb90ecc706a7a25542b.png",
+    "static/media/whatsapp black.png": "/Gallery/static/media/whatsapp black.fdd4b7007148bcf6ce48.png",
+    "index.html": "/Gallery/index.html",
+    "main.50452960.css.map": "/Gallery/static/css/main.50452960.css.map",
+    "main.5f3b8729.js.map": "/Gallery/static/js/main.5f3b8729.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50452960.css",
+    "static/js/main.5f3b8729.js"
+  ]
+}

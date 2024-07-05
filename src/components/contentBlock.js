@@ -1,6 +1,7 @@
 import images from '../img/exporting';
 import React, { useEffect, useState } from 'react';
 import BlockBox from './blockBox'
+import Text from '../textContent';
 
 const Content = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -27,43 +28,54 @@ const Content = () => {
     };
 
     return(<>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Welcome to Our Site"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Galería"}/>
         <div className="content">
-            <p>Some content goes here...</p>
+            <p>{Text.first}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 1"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.second}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 2"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.third}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 3"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.forth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} title={"Section 4"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.fifth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 5"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.sixth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 6"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.seventh}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 7"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.eighth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"another Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 8"}/>
         <div className="content">
-            <p>More content goes here...</p>
+            <p>{Text.ninth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Final Section"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 9"}/>
+        <div className="content">
+            <p>{Text.tenth}</p>
+        </div>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} title={"Section 10"}/>
+        <div className="content">
+            <p>{Text.eleventh}</p>
+        </div>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.45)} title={"Section 11"}/>
+        <div className="content">
+            <p>{Text.twelfth}</p>
+        </div>
     </>)
 }
 

@@ -3,10 +3,15 @@
 body {
   background-color: #000;
   margin: 0;
+  font-family: var(--outfit-sans-serif);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
 }
 
 a {
@@ -51,7 +56,7 @@ a {
   font-family: var(--outfit-sans-serif);
 }
 
-.header--icon-container {
+.header--icon-container{
   max-width: 25px;
   max-height: 25px;
 }
@@ -147,36 +152,75 @@ button.header--button:hover span:not(:nth-child(6)) {
 
 /* Content sections */
 .content {
-  height: 50vh; /* Half screen height */
+  min-height: 50vh; /* Half screen height */
   background: var(--color-black);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 2em 20%;
   color: var(--color-white);
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 28px;
+
 }
 
 /* ----------------------------------------------- footer ----------------------------------------- */
 
 .foother--father {
-  display: flex;
-  min-height: 600px;
-  align-items: center;
-  justify-content: center;
+  min-height: 60px;
   background-color: var(--color-black);
+  border-top: 0.5px solid lightgray;
+}
+
+.footer--flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer--content-box {
-  max-width: 65%;
+  padding: 1.5em 2em;
   text-align: center;
   color: var(--color-white);
   font-family: var(--outfit-sans-serif);
 }
 
+.footer--icons-big {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.footer--icon-box {
+  max-width: 25px;
+  max-height: 25px;
+  display: block;
+}
+
+.footer--icon-box img {
+  position: relative;
+}
+
+.footer--icon-box:hover img {
+  top: -0.4em;
+}
+
+.footer--flex-content p {
+  text-align: left;
+}
+
+.footer--logos {
+  width: 100%;
+  height: 100%;
+}
+
 /* ------------------------------------------- landing -------------------------------------------- */
 
 .landing--father {
+  width: 100%;
   z-index: 999;
   height: 100%;
   display: flex;
@@ -201,5 +245,18 @@ button.header--button:hover span:not(:nth-child(6)) {
   text-align: center;
   color: var(--color-white);
   max-width: 60%;
+  gap: 1.5em;
 }
+
+/* ------------------------------------ media queries -------------------------------------------------------- */
   
+@media only screen and (max-width: 463px) {
+  .content p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .footer--flex-content p {
+    font-size: 14px;
+  }
+}

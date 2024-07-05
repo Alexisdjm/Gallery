@@ -19,8 +19,8 @@ const Landing = () => {
         className={`landing--father ${!isPortadaVisible ? 'fade-out' : ''}`} 
         style={{backgroundImage: `url(${images.landing})`}}>
             <div className='landing--content'>
-                <h1>{Text.title}</h1>
-                <h2>{Text.landing}</h2>
+                <h1>"{Text.title}"</h1>
+                <h2>"{Text.landing}"</h2>
                 <button id='toggleID' className='header--button' onClick={togglePortada}>
                     <span className="circle1"></span>
                     <span className="circle2"></span>

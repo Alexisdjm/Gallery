@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Gallery/static/css/main.50452960.css",
-    "main.js": "/Gallery/static/js/main.b3ee2c9b.js",
+    "main.js": "/Gallery/static/js/main.e069380e.js",
     "static/media/IMG_6581.webp": "/Gallery/static/media/IMG_6581.4327d94469f5b59d37aa.webp",
     "static/media/IMG_6593.webp": "/Gallery/static/media/IMG_6593.5062004c72b932c577bf.webp",
     "static/media/IMG_6557.webp": "/Gallery/static/media/IMG_6557.a198bc7b11901a45a0a3.webp",
@@ -13,19 +13,19 @@
     "static/media/IMG_6522.webp": "/Gallery/static/media/IMG_6522.da7fa51700aa5a277b78.webp",
     "static/media/IMG_6504.webp": "/Gallery/static/media/IMG_6504.9f317bc2c971db965850.webp",
     "static/media/grupo.webp": "/Gallery/static/media/grupo.41b78dc0a2c43470a360.webp",
-    "static/media/portada.webp": "/Gallery/static/media/portada.33d2cf8eec1a315d79e1.webp",
     "static/media/IMG_6514.webp": "/Gallery/static/media/IMG_6514.89ba2a9632d25444f9b2.webp",
     "static/media/IMG_6716.webp": "/Gallery/static/media/IMG_6716.4ba72129819c55a68ab6.webp",
+    "static/media/portada2.webp": "/Gallery/static/media/portada2.398c46656ba683697efb.webp",
     "static/media/instagram.png": "/Gallery/static/media/instagram.45fff7199a360eb96604.png",
     "static/media/whatsapp.png": "/Gallery/static/media/whatsapp.b6dbec345b34e709d8d3.png",
     "static/media/instagram-black.png": "/Gallery/static/media/instagram-black.edb90ecc706a7a25542b.png",
     "static/media/whatsapp black.png": "/Gallery/static/media/whatsapp black.fdd4b7007148bcf6ce48.png",
     "index.html": "/Gallery/index.html",
     "main.50452960.css.map": "/Gallery/static/css/main.50452960.css.map",
-    "main.b3ee2c9b.js.map": "/Gallery/static/js/main.b3ee2c9b.js.map"
+    "main.e069380e.js.map": "/Gallery/static/js/main.e069380e.js.map"
   },
   "entrypoints": [
     "static/css/main.50452960.css",
-    "static/js/main.b3ee2c9b.js"
+    "static/js/main.e069380e.js"
   ]
 }

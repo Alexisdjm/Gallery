@@ -36,11 +36,11 @@ const Content = () => {
         <div className="content">
             <p>{Text.second}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 2"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={""}/>
         <div className="content">
             <p>{Text.third}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 3"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={""}/>
         <div className="content">
             <p>{Text.forth}</p>
         </div>
@@ -48,7 +48,7 @@ const Content = () => {
         <div className="content">
             <p>{Text.fifth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={"Section 5"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.5)} title={""}/>
         <div className="content">
             <p>{Text.sixth}</p>
         </div>
@@ -56,11 +56,11 @@ const Content = () => {
         <div className="content">
             <p>{Text.seventh}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 7"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={""}/>
         <div className="content">
             <p>{Text.eighth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={"Section 8"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.575)} title={""}/>
         <div className="content">
             <p>{Text.ninth}</p>
         </div>
@@ -68,7 +68,7 @@ const Content = () => {
         <div className="content">
             <p>{Text.tenth}</p>
         </div>
-        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} title={"Section 10"}/>
+        <BlockBox bg={getBackgroundImage(scrollPosition, 1.55)} title={""}/>
         <div className="content">
             <p>{Text.eleventh}</p>
         </div>

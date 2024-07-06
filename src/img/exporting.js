@@ -1,5 +1,5 @@
 const images = {
-    landing: require('./images/portada.webp'),
+    landing: require('./images/portada2.webp'),
     image1: require('./images/IMG_6522.webp'),
     image2: require('./images/IMG_6512.webp'),
     image3: require('./images/IMG_6493.webp'),

@@ -29,6 +29,7 @@ const Landing = () => {
                     <span className="circle5"></span>
                     <span className="text">Ver Galeria</span>
                 </button>
+                <h2>Alondra Viera Lara</h2>
             </div>
         </div>
     </>)
